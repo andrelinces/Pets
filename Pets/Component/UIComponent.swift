@@ -11,6 +11,6 @@ import SwiftUI
 protocol UIComponent {
     
     var uniqueId: String { get }
-    func reder() -> AnyView
+    func render() -> AnyView
     
 }

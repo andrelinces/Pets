@@ -1,0 +1,16 @@
+
+
+    {
+        "pageTitle": "Pets",
+        "components": [
+            {
+                "type": "featuredImage",
+                "data": {
+                    "imageUrl": "https://picsum.photos/200/300"
+                }
+
+            }
+
+        ]
+    }
+

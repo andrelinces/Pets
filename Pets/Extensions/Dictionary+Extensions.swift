@@ -14,7 +14,7 @@ extension Dictionary {
         guard let data = try? JSONSerialization.data(withJSONObject: self, options: .prettyPrinted) else {
             return nil
         }
-        
+        print(">>>> data: \(data)")
         return try? JSONDecoder().decode(T.self, from: data)
     }
     

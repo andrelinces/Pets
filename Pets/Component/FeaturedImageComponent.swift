@@ -15,7 +15,7 @@ struct FeaturedImageComponent: UIComponent {
         return ComponentType.featuredImage.rawValue
     }
     
-    func reder() -> AnyView {
+    func render() -> AnyView {
         AsyncImage(url: uiModel.imageUrl) { image in
             image.resizable()
                 .aspectRatio(contentMode: .fill)

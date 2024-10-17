@@ -39,6 +39,7 @@ extension ScreenModel {
                     throw ComponentError.decodingError
                 }
                 components.append(FeaturedImageComponent(uiModel: uiModel))
+                print("components: \(components)")
             }
         }
         return components

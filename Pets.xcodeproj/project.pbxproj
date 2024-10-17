@@ -20,6 +20,8 @@
 		D3BED0A02CC12E2200AB1C4D /* View+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3BED09F2CC12E2200AB1C4D /* View+Extension.swift */; };
 		D3BED0A32CC12FDE00AB1C4D /* PetListVIewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3BED0A22CC12FDE00AB1C4D /* PetListVIewModel.swift */; };
 		D3BED0A52CC1354C00AB1C4D /* Dictionary+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3BED0A42CC1354C00AB1C4D /* Dictionary+Extensions.swift */; };
+		D3BED0A82CC1590800AB1C4D /* LocalService.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3BED0A72CC1590800AB1C4D /* LocalService.swift */; };
+		D3BED0AA2CC1597500AB1C4D /* NetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3BED0A92CC1597500AB1C4D /* NetworkService.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +39,9 @@
 		D3BED09F2CC12E2200AB1C4D /* View+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+Extension.swift"; sourceTree = "<group>"; };
 		D3BED0A22CC12FDE00AB1C4D /* PetListVIewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PetListVIewModel.swift; sourceTree = "<group>"; };
 		D3BED0A42CC1354C00AB1C4D /* Dictionary+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Dictionary+Extensions.swift"; sourceTree = "<group>"; };
+		D3BED0A62CC157BD00AB1C4D /* pet-listing.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = "pet-listing.json"; sourceTree = "<group>"; };
+		D3BED0A72CC1590800AB1C4D /* LocalService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalService.swift; sourceTree = "<group>"; };
+		D3BED0A92CC1597500AB1C4D /* NetworkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkService.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +84,7 @@
 				D3BED0822CC0991F00AB1C4D /* ContentView.swift */,
 				D3BED0842CC0992100AB1C4D /* Assets.xcassets */,
 				D3BED0862CC0992100AB1C4D /* Preview Content */,
+				D3BED0A62CC157BD00AB1C4D /* pet-listing.json */,
 			);
 			path = Pets;
 			sourceTree = "<group>";
@@ -95,6 +101,8 @@
 			isa = PBXGroup;
 			children = (
 				D3BED08F2CC09B5000AB1C4D /* Webservice.swift */,
+				D3BED0A72CC1590800AB1C4D /* LocalService.swift */,
+				D3BED0A92CC1597500AB1C4D /* NetworkService.swift */,
 			);
 			path = Services;
 			sourceTree = "<group>";
@@ -217,11 +225,13 @@
 				D3BED09D2CC12C0D00AB1C4D /* FeatureImageUIModel.swift in Sources */,
 				D3BED09B2CC12AAF00AB1C4D /* FeaturedImageComponent.swift in Sources */,
 				D3BED0A32CC12FDE00AB1C4D /* PetListVIewModel.swift in Sources */,
+				D3BED0A82CC1590800AB1C4D /* LocalService.swift in Sources */,
 				D3BED0962CC0AB6900AB1C4D /* ScreenModel.swift in Sources */,
 				D3BED0812CC0991F00AB1C4D /* PetsApp.swift in Sources */,
 				D3BED0902CC09B5000AB1C4D /* Webservice.swift in Sources */,
 				D3BED0A02CC12E2200AB1C4D /* View+Extension.swift in Sources */,
 				D3BED0932CC09BDE00AB1C4D /* Constants.swift in Sources */,
+				D3BED0AA2CC1597500AB1C4D /* NetworkService.swift in Sources */,
 				D3BED0A52CC1354C00AB1C4D /* Dictionary+Extensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
