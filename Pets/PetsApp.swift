@@ -7,6 +7,8 @@
 
 import SwiftUI
 
+//Created server with Node.js and using the VSCode editor.
+
 @main
 struct PetsApp: App {
     var body: some Scene {
