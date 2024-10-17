@@ -11,8 +11,8 @@ struct Constants {
     
     struct ScreenResources {
         
-                static let baseUrl = "localhost:3000"
-                static let petListing = "pet-listing"
+        static let baseUrl = "localhost:3000"
+        static let petListing = "pet-listing"
         
         static func resource(for resourceName: String) -> URL? {
             
@@ -21,22 +21,16 @@ struct Constants {
             components.percentEncodedHost = baseUrl
             components.path = "/\(resourceName)"
             return components.url
+            
         }
         
     }
     
     
-//    
-//    
-//    
-//    
-//    
-//    
-//    struct Urls {
-////        static let baseUrl = "http://localhost:3000/"
-////        static let petListing = "\(baseUrl)/pet-listing"
-//        static let petListing = "http://localhost:3000/"
-//    }
-//    
+    
+    struct Urls {
+        static let baseUrl = "http://localhost:3000"
+        static let petListing = "\(baseUrl)/pet-listing"
+    }
     
 }

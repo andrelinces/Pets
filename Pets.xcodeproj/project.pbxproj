@@ -16,9 +16,9 @@
 		D3BED0962CC0AB6900AB1C4D /* ScreenModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3BED0952CC0AB6900AB1C4D /* ScreenModel.swift */; };
 		D3BED0992CC129B800AB1C4D /* UIComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3BED0982CC129B800AB1C4D /* UIComponent.swift */; };
 		D3BED09B2CC12AAF00AB1C4D /* FeaturedImageComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3BED09A2CC12AAF00AB1C4D /* FeaturedImageComponent.swift */; };
-		D3BED09D2CC12C0D00AB1C4D /* FeatureImageUIModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3BED09C2CC12C0D00AB1C4D /* FeatureImageUIModel.swift */; };
+		D3BED09D2CC12C0D00AB1C4D /* FeaturedImageUIModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3BED09C2CC12C0D00AB1C4D /* FeaturedImageUIModel.swift */; };
 		D3BED0A02CC12E2200AB1C4D /* View+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3BED09F2CC12E2200AB1C4D /* View+Extension.swift */; };
-		D3BED0A32CC12FDE00AB1C4D /* PetListVIewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3BED0A22CC12FDE00AB1C4D /* PetListVIewModel.swift */; };
+		D3BED0A32CC12FDE00AB1C4D /* PetListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3BED0A22CC12FDE00AB1C4D /* PetListViewModel.swift */; };
 		D3BED0A52CC1354C00AB1C4D /* Dictionary+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3BED0A42CC1354C00AB1C4D /* Dictionary+Extensions.swift */; };
 		D3BED0A82CC1590800AB1C4D /* LocalService.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3BED0A72CC1590800AB1C4D /* LocalService.swift */; };
 		D3BED0AA2CC1597500AB1C4D /* NetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3BED0A92CC1597500AB1C4D /* NetworkService.swift */; };
@@ -35,9 +35,9 @@
 		D3BED0952CC0AB6900AB1C4D /* ScreenModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScreenModel.swift; sourceTree = "<group>"; };
 		D3BED0982CC129B800AB1C4D /* UIComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIComponent.swift; sourceTree = "<group>"; };
 		D3BED09A2CC12AAF00AB1C4D /* FeaturedImageComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeaturedImageComponent.swift; sourceTree = "<group>"; };
-		D3BED09C2CC12C0D00AB1C4D /* FeatureImageUIModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeatureImageUIModel.swift; sourceTree = "<group>"; };
+		D3BED09C2CC12C0D00AB1C4D /* FeaturedImageUIModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeaturedImageUIModel.swift; sourceTree = "<group>"; };
 		D3BED09F2CC12E2200AB1C4D /* View+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+Extension.swift"; sourceTree = "<group>"; };
-		D3BED0A22CC12FDE00AB1C4D /* PetListVIewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PetListVIewModel.swift; sourceTree = "<group>"; };
+		D3BED0A22CC12FDE00AB1C4D /* PetListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PetListViewModel.swift; sourceTree = "<group>"; };
 		D3BED0A42CC1354C00AB1C4D /* Dictionary+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Dictionary+Extensions.swift"; sourceTree = "<group>"; };
 		D3BED0A62CC157BD00AB1C4D /* pet-listing.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = "pet-listing.json"; sourceTree = "<group>"; };
 		D3BED0A72CC1590800AB1C4D /* LocalService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalService.swift; sourceTree = "<group>"; };
@@ -119,7 +119,7 @@
 			isa = PBXGroup;
 			children = (
 				D3BED0952CC0AB6900AB1C4D /* ScreenModel.swift */,
-				D3BED09C2CC12C0D00AB1C4D /* FeatureImageUIModel.swift */,
+				D3BED09C2CC12C0D00AB1C4D /* FeaturedImageUIModel.swift */,
 			);
 			path = UIModels;
 			sourceTree = "<group>";
@@ -145,7 +145,7 @@
 		D3BED0A12CC12FA400AB1C4D /* View Models */ = {
 			isa = PBXGroup;
 			children = (
-				D3BED0A22CC12FDE00AB1C4D /* PetListVIewModel.swift */,
+				D3BED0A22CC12FDE00AB1C4D /* PetListViewModel.swift */,
 			);
 			path = "View Models";
 			sourceTree = "<group>";
@@ -222,9 +222,9 @@
 			files = (
 				D3BED0832CC0991F00AB1C4D /* ContentView.swift in Sources */,
 				D3BED0992CC129B800AB1C4D /* UIComponent.swift in Sources */,
-				D3BED09D2CC12C0D00AB1C4D /* FeatureImageUIModel.swift in Sources */,
+				D3BED09D2CC12C0D00AB1C4D /* FeaturedImageUIModel.swift in Sources */,
 				D3BED09B2CC12AAF00AB1C4D /* FeaturedImageComponent.swift in Sources */,
-				D3BED0A32CC12FDE00AB1C4D /* PetListVIewModel.swift in Sources */,
+				D3BED0A32CC12FDE00AB1C4D /* PetListViewModel.swift in Sources */,
 				D3BED0A82CC1590800AB1C4D /* LocalService.swift in Sources */,
 				D3BED0962CC0AB6900AB1C4D /* ScreenModel.swift in Sources */,
 				D3BED0812CC0991F00AB1C4D /* PetsApp.swift in Sources */,
@@ -374,6 +374,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -403,6 +404,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

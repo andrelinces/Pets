@@ -5,11 +5,12 @@
 //  Created by Andre Linces on 10/17/24.
 //
 
+import Foundation
 import SwiftUI
 
 struct FeaturedImageComponent: UIComponent {
     
-    let uiModel: FeatureImageUIModel
+    let uiModel: FeaturedImageUIModel
     
     var uniqueId: String {
         return ComponentType.featuredImage.rawValue
@@ -21,6 +22,7 @@ struct FeaturedImageComponent: UIComponent {
                 .aspectRatio(contentMode: .fill)
         } placeholder: {
             ProgressView()
-        }.toAnyView() 
+        }.toAnyView()
     }
+    
 }

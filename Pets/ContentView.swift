@@ -8,32 +8,35 @@
 import SwiftUI
 
 struct ContentView: View {
-    
-//    @StateObject private var vm = PetListVIewModel(service: Webservice())
-    
-    @StateObject private var vm: PetListVIewModel
+   
+    @StateObject private var vm: PetListViewModel
     
     init() {
-        _vm = StateObject(wrappedValue: PetListVIewModel(service: LocalService()))
+        _vm = StateObject(wrappedValue: PetListViewModel(service: LocalService()))
     }
-    
+   
     var body: some View {
-//       Text("Testing....")
         NavigationView {
             ScrollView {
-                ForEach(vm.components, id:  \.uniqueId) { component in
-                    
+                ForEach(vm.components, id: \.uniqueId) { component in
                     component.render()
                 }
-                navigationTitle("Pets")
+                
+                .navigationTitle("Pets")
             }.task {
                 await vm.load()
             }
         }
-        
     }
 }
 
-#Preview {
-    ContentView()
+
+//#Preview {
+//    ContentView()
+//}
+
+struct ContentView_Previews: PreviewProvider {
+    static var previews: some View {
+        ContentView()
+    }
 }

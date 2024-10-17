@@ -7,8 +7,6 @@
 
 import Foundation
 
-struct FeatureImageUIModel: Decodable {
+struct FeaturedImageUIModel: Decodable {
     let imageUrl: URL
-    
-    
 }

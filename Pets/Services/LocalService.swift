@@ -20,5 +20,4 @@ class LocalService: NetworkService {
         return screenModel
     }
     
-    
 }

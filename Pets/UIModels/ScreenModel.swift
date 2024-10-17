@@ -15,14 +15,14 @@ enum ComponentType: String, Decodable {
     case featuredImage
 }
 
-struct componentModel: Decodable {
+struct ComponentModel: Decodable {
     let type: ComponentType
     let data: [String: String]
 }
 
 struct ScreenModel: Decodable {
     let pageTitle: String
-    let components: [componentModel]
+    let components: [ComponentModel]
 }
 
 extension ScreenModel {
@@ -33,15 +33,17 @@ extension ScreenModel {
         
         for component in self.components {
             switch component.type {
-            case .featuredImage:
-                print("featuredImage")
-                guard let uiModel: FeatureImageUIModel = component.data.decode() else {
-                    throw ComponentError.decodingError
-                }
-                components.append(FeaturedImageComponent(uiModel: uiModel))
-                print("components: \(components)")
+                case .featuredImage:
+                    guard let uiModel: FeaturedImageUIModel = component.data.decode() else {
+                        throw ComponentError.decodingError
+                    }
+                    components.append(FeaturedImageComponent(uiModel: uiModel))
             }
         }
+        
         return components
+        
     }
+    
 }
+

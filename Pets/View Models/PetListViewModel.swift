@@ -8,7 +8,7 @@
 import Foundation
 
 @MainActor /// Main thread
-class PetListVIewModel: ObservableObject {
+class PetListViewModel: ObservableObject {
     
     private var service: NetworkService
     @Published var components: [UIComponent] = [] /// IT will notify the view that it has been published.
@@ -18,9 +18,12 @@ class PetListVIewModel: ObservableObject {
     }
     
     func load() async {
+        
         do {
+            
            let screenModel = try await service.load(Constants.ScreenResources.petListing)
             self.components = try screenModel.buildComponents()
+            
         } catch {
             print(error)
         }
