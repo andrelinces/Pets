@@ -13,6 +13,12 @@
 		D3BED0882CC0992100AB1C4D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D3BED0872CC0992100AB1C4D /* Preview Assets.xcassets */; };
 		D3BED0902CC09B5000AB1C4D /* Webservice.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3BED08F2CC09B5000AB1C4D /* Webservice.swift */; };
 		D3BED0932CC09BDE00AB1C4D /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3BED0922CC09BDE00AB1C4D /* Constants.swift */; };
+		D3BED0962CC0AB6900AB1C4D /* ScreenModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3BED0952CC0AB6900AB1C4D /* ScreenModel.swift */; };
+		D3BED0992CC129B800AB1C4D /* UIComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3BED0982CC129B800AB1C4D /* UIComponent.swift */; };
+		D3BED09B2CC12AAF00AB1C4D /* FeaturedImageComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3BED09A2CC12AAF00AB1C4D /* FeaturedImageComponent.swift */; };
+		D3BED09D2CC12C0D00AB1C4D /* FeatureImageUIModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3BED09C2CC12C0D00AB1C4D /* FeatureImageUIModel.swift */; };
+		D3BED0A02CC12E2200AB1C4D /* View+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3BED09F2CC12E2200AB1C4D /* View+Extension.swift */; };
+		D3BED0A32CC12FDE00AB1C4D /* PetListVIewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3BED0A22CC12FDE00AB1C4D /* PetListVIewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +29,12 @@
 		D3BED0872CC0992100AB1C4D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		D3BED08F2CC09B5000AB1C4D /* Webservice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Webservice.swift; sourceTree = "<group>"; };
 		D3BED0922CC09BDE00AB1C4D /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		D3BED0952CC0AB6900AB1C4D /* ScreenModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScreenModel.swift; sourceTree = "<group>"; };
+		D3BED0982CC129B800AB1C4D /* UIComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIComponent.swift; sourceTree = "<group>"; };
+		D3BED09A2CC12AAF00AB1C4D /* FeaturedImageComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeaturedImageComponent.swift; sourceTree = "<group>"; };
+		D3BED09C2CC12C0D00AB1C4D /* FeatureImageUIModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeatureImageUIModel.swift; sourceTree = "<group>"; };
+		D3BED09F2CC12E2200AB1C4D /* View+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+Extension.swift"; sourceTree = "<group>"; };
+		D3BED0A22CC12FDE00AB1C4D /* PetListVIewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PetListVIewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +67,10 @@
 		D3BED07F2CC0991F00AB1C4D /* Pets */ = {
 			isa = PBXGroup;
 			children = (
+				D3BED0A12CC12FA400AB1C4D /* View Models */,
+				D3BED09E2CC12DEA00AB1C4D /* Extensions */,
+				D3BED0972CC1299200AB1C4D /* Component */,
+				D3BED0942CC0AB4800AB1C4D /* UIModels */,
 				D3BED0912CC09BCB00AB1C4D /* Utils */,
 				D3BED0802CC0991F00AB1C4D /* PetsApp.swift */,
 				D3BED08E2CC09B3C00AB1C4D /* Services */,
@@ -87,6 +103,40 @@
 				D3BED0922CC09BDE00AB1C4D /* Constants.swift */,
 			);
 			path = Utils;
+			sourceTree = "<group>";
+		};
+		D3BED0942CC0AB4800AB1C4D /* UIModels */ = {
+			isa = PBXGroup;
+			children = (
+				D3BED0952CC0AB6900AB1C4D /* ScreenModel.swift */,
+				D3BED09C2CC12C0D00AB1C4D /* FeatureImageUIModel.swift */,
+			);
+			path = UIModels;
+			sourceTree = "<group>";
+		};
+		D3BED0972CC1299200AB1C4D /* Component */ = {
+			isa = PBXGroup;
+			children = (
+				D3BED0982CC129B800AB1C4D /* UIComponent.swift */,
+				D3BED09A2CC12AAF00AB1C4D /* FeaturedImageComponent.swift */,
+			);
+			path = Component;
+			sourceTree = "<group>";
+		};
+		D3BED09E2CC12DEA00AB1C4D /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				D3BED09F2CC12E2200AB1C4D /* View+Extension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		D3BED0A12CC12FA400AB1C4D /* View Models */ = {
+			isa = PBXGroup;
+			children = (
+				D3BED0A22CC12FDE00AB1C4D /* PetListVIewModel.swift */,
+			);
+			path = "View Models";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -160,8 +210,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				D3BED0832CC0991F00AB1C4D /* ContentView.swift in Sources */,
+				D3BED0992CC129B800AB1C4D /* UIComponent.swift in Sources */,
+				D3BED09D2CC12C0D00AB1C4D /* FeatureImageUIModel.swift in Sources */,
+				D3BED09B2CC12AAF00AB1C4D /* FeaturedImageComponent.swift in Sources */,
+				D3BED0A32CC12FDE00AB1C4D /* PetListVIewModel.swift in Sources */,
+				D3BED0962CC0AB6900AB1C4D /* ScreenModel.swift in Sources */,
 				D3BED0812CC0991F00AB1C4D /* PetsApp.swift in Sources */,
 				D3BED0902CC09B5000AB1C4D /* Webservice.swift in Sources */,
+				D3BED0A02CC12E2200AB1C4D /* View+Extension.swift in Sources */,
 				D3BED0932CC09BDE00AB1C4D /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
