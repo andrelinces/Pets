@@ -19,6 +19,7 @@
 		D3BED09D2CC12C0D00AB1C4D /* FeatureImageUIModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3BED09C2CC12C0D00AB1C4D /* FeatureImageUIModel.swift */; };
 		D3BED0A02CC12E2200AB1C4D /* View+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3BED09F2CC12E2200AB1C4D /* View+Extension.swift */; };
 		D3BED0A32CC12FDE00AB1C4D /* PetListVIewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3BED0A22CC12FDE00AB1C4D /* PetListVIewModel.swift */; };
+		D3BED0A52CC1354C00AB1C4D /* Dictionary+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3BED0A42CC1354C00AB1C4D /* Dictionary+Extensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,6 +36,7 @@
 		D3BED09C2CC12C0D00AB1C4D /* FeatureImageUIModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeatureImageUIModel.swift; sourceTree = "<group>"; };
 		D3BED09F2CC12E2200AB1C4D /* View+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+Extension.swift"; sourceTree = "<group>"; };
 		D3BED0A22CC12FDE00AB1C4D /* PetListVIewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PetListVIewModel.swift; sourceTree = "<group>"; };
+		D3BED0A42CC1354C00AB1C4D /* Dictionary+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Dictionary+Extensions.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -127,6 +129,7 @@
 			isa = PBXGroup;
 			children = (
 				D3BED09F2CC12E2200AB1C4D /* View+Extension.swift */,
+				D3BED0A42CC1354C00AB1C4D /* Dictionary+Extensions.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -219,6 +222,7 @@
 				D3BED0902CC09B5000AB1C4D /* Webservice.swift in Sources */,
 				D3BED0A02CC12E2200AB1C4D /* View+Extension.swift in Sources */,
 				D3BED0932CC09BDE00AB1C4D /* Constants.swift in Sources */,
+				D3BED0A52CC1354C00AB1C4D /* Dictionary+Extensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
