@@ -11,6 +11,8 @@
 		D3BED0832CC0991F00AB1C4D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3BED0822CC0991F00AB1C4D /* ContentView.swift */; };
 		D3BED0852CC0992100AB1C4D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D3BED0842CC0992100AB1C4D /* Assets.xcassets */; };
 		D3BED0882CC0992100AB1C4D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D3BED0872CC0992100AB1C4D /* Preview Assets.xcassets */; };
+		D3BED0902CC09B5000AB1C4D /* Webservice.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3BED08F2CC09B5000AB1C4D /* Webservice.swift */; };
+		D3BED0932CC09BDE00AB1C4D /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3BED0922CC09BDE00AB1C4D /* Constants.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,8 @@
 		D3BED0822CC0991F00AB1C4D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		D3BED0842CC0992100AB1C4D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D3BED0872CC0992100AB1C4D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		D3BED08F2CC09B5000AB1C4D /* Webservice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Webservice.swift; sourceTree = "<group>"; };
+		D3BED0922CC09BDE00AB1C4D /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,7 +55,9 @@
 		D3BED07F2CC0991F00AB1C4D /* Pets */ = {
 			isa = PBXGroup;
 			children = (
+				D3BED0912CC09BCB00AB1C4D /* Utils */,
 				D3BED0802CC0991F00AB1C4D /* PetsApp.swift */,
+				D3BED08E2CC09B3C00AB1C4D /* Services */,
 				D3BED0822CC0991F00AB1C4D /* ContentView.swift */,
 				D3BED0842CC0992100AB1C4D /* Assets.xcassets */,
 				D3BED0862CC0992100AB1C4D /* Preview Content */,
@@ -65,6 +71,22 @@
 				D3BED0872CC0992100AB1C4D /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		D3BED08E2CC09B3C00AB1C4D /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				D3BED08F2CC09B5000AB1C4D /* Webservice.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		D3BED0912CC09BCB00AB1C4D /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				D3BED0922CC09BDE00AB1C4D /* Constants.swift */,
+			);
+			path = Utils;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -139,6 +161,8 @@
 			files = (
 				D3BED0832CC0991F00AB1C4D /* ContentView.swift in Sources */,
 				D3BED0812CC0991F00AB1C4D /* PetsApp.swift in Sources */,
+				D3BED0902CC09B5000AB1C4D /* Webservice.swift in Sources */,
+				D3BED0932CC09BDE00AB1C4D /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
