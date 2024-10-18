@@ -7,7 +7,7 @@
 
 import Foundation
 
-@MainActor /// Main thread
+@MainActor
 class PetListViewModel: ObservableObject {
     
     private var service: NetworkService
@@ -21,11 +21,13 @@ class PetListViewModel: ObservableObject {
         
         do {
             
-           let screenModel = try await service.load(Constants.ScreenResources.petListing)
+            let screenModel = try await service.load(Constants.ScreenResources.petListing)
             self.components = try screenModel.buildComponents()
             
         } catch {
             print(error)
         }
+        
     }
+    
 }
