@@ -24,6 +24,7 @@
 		D319275A2CC31EC80030D5F1 /* ListUIModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D31927592CC31EC80030D5F1 /* ListUIModel.swift */; };
 		D319275C2CC320AC0030D5F1 /* ListComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = D319275B2CC320AC0030D5F1 /* ListComponent.swift */; };
 		D319275E2CC321F10030D5F1 /* RowComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = D319275D2CC321F10030D5F1 /* RowComponent.swift */; };
+		D31927602CC334F10030D5F1 /* EmptyComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = D319275F2CC334F10030D5F1 /* EmptyComponent.swift */; };
 		D3BED0812CC0991F00AB1C4D /* PetsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3BED0802CC0991F00AB1C4D /* PetsApp.swift */; };
 		D3BED0832CC0991F00AB1C4D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3BED0822CC0991F00AB1C4D /* ContentView.swift */; };
 		D3BED0852CC0992100AB1C4D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D3BED0842CC0992100AB1C4D /* Assets.xcassets */; };
@@ -59,6 +60,7 @@
 		D31927592CC31EC80030D5F1 /* ListUIModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListUIModel.swift; sourceTree = "<group>"; };
 		D319275B2CC320AC0030D5F1 /* ListComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListComponent.swift; sourceTree = "<group>"; };
 		D319275D2CC321F10030D5F1 /* RowComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RowComponent.swift; sourceTree = "<group>"; };
+		D319275F2CC334F10030D5F1 /* EmptyComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmptyComponent.swift; sourceTree = "<group>"; };
 		D3BED07D2CC0991F00AB1C4D /* Pets.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Pets.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D3BED0802CC0991F00AB1C4D /* PetsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PetsApp.swift; sourceTree = "<group>"; };
 		D3BED0822CC0991F00AB1C4D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -211,6 +213,7 @@
 				D31927552CC3134A0030D5F1 /* RatingRowComponent.swift */,
 				D319275B2CC320AC0030D5F1 /* ListComponent.swift */,
 				D319275D2CC321F10030D5F1 /* RowComponent.swift */,
+				D319275F2CC334F10030D5F1 /* EmptyComponent.swift */,
 			);
 			path = Components;
 			sourceTree = "<group>";
@@ -316,6 +319,7 @@
 				D3BED09D2CC12C0D00AB1C4D /* FeaturedImageUIModel.swift in Sources */,
 				D319274D2CC2E3240030D5F1 /* PetDetailViewModel.swift in Sources */,
 				D3BED09B2CC12AAF00AB1C4D /* FeaturedImageComponent.swift in Sources */,
+				D31927602CC334F10030D5F1 /* EmptyComponent.swift in Sources */,
 				D3BED0A32CC12FDE00AB1C4D /* PetListViewModel.swift in Sources */,
 				D31927402CC1D8C80030D5F1 /* CarouselView.swift in Sources */,
 				D31927522CC2EBCF0030D5F1 /* TextRowComponent.swift in Sources */,

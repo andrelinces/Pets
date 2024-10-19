@@ -14,7 +14,7 @@ enum NetworkError: Error {
 
 class Webservice: NetworkService {
     
-    func load(_ resource: String) async throws -> ScreenModel {
+    func load(_ resource: String) async throws -> ScreenModel { // Ocorre um erro ao realizar não está concact
             
         guard let url = Constants.ScreenResources.resource(for: resource) else {
             throw NetworkError.invalidUrl
@@ -29,5 +29,4 @@ class Webservice: NetworkService {
         
         return try JSONDecoder().decode(ScreenModel.self, from: data)
     }
-    
 }
